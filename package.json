@@ -1,0 +1,34 @@
+{
+  "name": "@elaraai/pack",
+  "version": "0.0.69",
+  "description": "",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elaraai/"
+  },
+  "license": "UNLICENSED",
+  "author": "Campbell Morrison",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "pack": "node --max-old-space-size=32768 dist/pack.js"
+  },
+  "dependencies": {
+    "@types/memory-fs": "^0.3.2",
+    "@types/node": "^13.9.0",
+    "@types/uuid": "^3.4.8",
+    "@types/webpack": "^4.41.21",
+    "memory-fs": "^0.5.0",
+    "ts-morph": "^7.1.2",
+    "uuid": "^8.2.0",
+    "vm2": "^3.9.2",
+    "webpack": "^4.44.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "4.1.5",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  }
+}
