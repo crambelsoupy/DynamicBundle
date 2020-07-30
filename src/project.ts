@@ -47,7 +47,7 @@ export function toProject(definition: ProjectDefinition): Project {
             module: ts.ModuleKind.CommonJS,
             declaration: true,
             declarationMap: true,
-            moduleResolution: ts.ModuleResolutionKind.NodeJs,
+            moduleResolution: ts.ModuleResolutionKind.Classic,
             esModuleInterop: true,
             inlineSources: true,
             noImplicitAny: true
